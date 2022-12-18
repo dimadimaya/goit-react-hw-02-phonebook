@@ -14,17 +14,17 @@ export class App extends Component {
   addContact = (name, number) => {
     const normalizedName = name.toLowerCase();
 
-    let isAdd = false;
+    // let isAdd = false;
     this.state.contacts.forEach(contact => {
       if (contact.name.toLowerCase() === normalizedName) {
-        alert(`${name} is already in contacts`);
-        isAdd = true;
+        return alert(`${name} is already in contacts`);
+        // isAdd = true;
       }
     });
 
-    if (isAdd) {
-      return;
-    }
+    // if (isAdd) {
+    //   return;
+    // }
 
     const contact = {
       id: shortid.generate(),
