@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 40px;
+  background-color: rgb(0, 128, 255);
+  border-radius: 8px;
+  color: #fff;
+  min-width: 250px;
+}
+
+.btn {
+  background-color: #b90000;
+  padding: 8px 12px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.list {
+  margin-top: 36px;
+}

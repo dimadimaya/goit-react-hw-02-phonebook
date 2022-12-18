@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: rgb(0, 128, 255);
+  color: #fff;
+  gap: 12px;
+  width: 250px;
+}
+
+input {
+  padding: 4px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 0;
+  background-color: #00c100;
+  color: #fff;
+}
